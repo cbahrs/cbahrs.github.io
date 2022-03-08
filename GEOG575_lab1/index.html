@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Worldwide Homicides in the 90's</title>
+
+
+
+		<!--put your external stylesheet links here-->
+		<link rel="stylesheet" href="lib/leaflet-1.4.0/leaflet.css">
+		<link rel="stylesheet" href="lib/leaflet.markercluster/MarkerCluster.css">
+		<link rel="stylesheet" href="lib/leaflet.markercluster/MarkerCluster.Default.css">
+		<link rel="stylesheet" href="css/style.css">
+		<!--[if IE<9]>
+			<link rel="stylesheet" href="css/style.ie.css">
+		<![endif]-->
+	</head>
+	<style>body{
+		background-image: url("img/crime.png");
+
+	} </style>
+
+	<h1>
+		Intentional Homicides of Major World Cities in the 1990's
+	</h1>
+	<h2>
+		The urban population for each city is at least 100,000.
+	</h2>
+
+
+	<body>
+
+
+
+	<div id ='mapid'></div>
+
+	<div id="panel"></div>
+
+
+		<!--library scripts-->
+		<script type="text/javascript" src="lib/jquery-3.3.1.js"></script>
+		<script type="text/javascript" src="lib/leaflet-1.4.0/leaflet-src.js"></script>
+		<script type="text/javascript" src="lib/leaflet.markercluster/leaflet.markercluster-src.js"></script>
+
+		<!--main scripts-->
+		<script type="text/javascript" src="js/main.js"></script>
+
+		<!-- input tag -->
+		<input id="searchbar" onkeyup="search_cities()" type="text"
+			   name="search" placeholder="Search city or country...">
+		<!-- ordered list -->
+		<ol id='list'>
+			<li class="cities">Belo Horizonte, Brazil</li>
+			<li class="cities">Bogota, Colombia</li>
+			<li class="cities">Brasilia, Brazil</li>
+			<li class="cities">Cali, Colombia</li>
+			<li class="cities">Campinas, Brazil</li>
+			<li class="cities">Cucuta, Colombia</li>
+			<li class="cities">Curitiba, Brazil</li>
+			<li class="cities">Detroit, United States</li>
+			<li class="cities">East London, South Africa</li>
+			<li class="cities">East Rand, South Africa</li>
+			<li class="cities">Fortaleza, Brazil</li>
+			<li class="cities">Los Angeles, United States</li>
+			<li class="cities">Medellin, Colombia</li>
+			<li class="cities">Mexico City, Mexico</li>
+			<li class="cities">New York City, United States</li>
+			<li class="cities">Pereira, Colombia</li>
+			<li class="cities">Porto Alegre, Brazil</li>
+			<li class="cities">Pretoria, South Africa</li>
+			<li class="cities">Recife, Brazil</li>
+			<li class="cities">Rio de Janeiro, Brazil</li>
+			<li class="cities">San Pedro Sula, Honduras</li>
+			<li class="cities">Santos, Brazil</li>
+			<li class="cities">Sao Paulo, Brazil</li>
+			<li class="cities">Vereeniging, South Africa</li>
+			<li class="cities">Vitoria, Brazil</li>
+		</ol>
+
+		</body>
+</html>

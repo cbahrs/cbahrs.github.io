@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>index.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #e8bf6a;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #bababa;}
+.s3 { color: #a5c261;}
+.s4 { color: #808080;}
+.s5 { color: #6a8759;}
+.s6 { color: #cc7832;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+index.html</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;!DOCTYPE </span><span class="s2">html</span><span class="s0">&gt;</span>
+<span class="s0">&lt;html </span><span class="s2">lang</span><span class="s3">=&quot;en&quot; </span><span class="s2">xmlns</span><span class="s3">=&quot;http://www.w3.org/1999/html&quot;</span><span class="s0">&gt;</span>
+	<span class="s0">&lt;head&gt;</span>
+		<span class="s0">&lt;meta </span><span class="s2">charset</span><span class="s3">=&quot;utf-8&quot;</span><span class="s0">&gt;</span>
+		<span class="s0">&lt;meta </span><span class="s2">name</span><span class="s3">=&quot;viewport&quot; </span><span class="s2">content</span><span class="s3">=&quot;width=device-width&quot;</span><span class="s0">&gt;</span>
+		<span class="s0">&lt;title&gt;</span><span class="s1">Worldwide Homicides in the 90's</span><span class="s0">&lt;/title&gt;</span>
+
+
+
+		<span class="s4">&lt;!--put your external stylesheet links here--&gt;</span>
+		<span class="s0">&lt;link </span><span class="s2">rel</span><span class="s3">=&quot;stylesheet&quot; </span><span class="s2">href</span><span class="s3">=&quot;lib/leaflet-1.4.0/leaflet.css&quot;</span><span class="s0">&gt;</span>
+		<span class="s0">&lt;link </span><span class="s2">rel</span><span class="s3">=&quot;stylesheet&quot; </span><span class="s2">href</span><span class="s3">=&quot;lib/leaflet.markercluster/MarkerCluster.css&quot;</span><span class="s0">&gt;</span>
+		<span class="s0">&lt;link </span><span class="s2">rel</span><span class="s3">=&quot;stylesheet&quot; </span><span class="s2">href</span><span class="s3">=&quot;lib/leaflet.markercluster/MarkerCluster.Default.css&quot;</span><span class="s0">&gt;</span>
+		<span class="s0">&lt;link </span><span class="s2">rel</span><span class="s3">=&quot;stylesheet&quot; </span><span class="s2">href</span><span class="s3">=&quot;css/style.css&quot;</span><span class="s0">&gt;</span>
+		<span class="s4">&lt;!--[if IE&lt;9]&gt; 
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.ie.css&quot;&gt; 
+        &lt;![endif]--&gt;</span>
+	<span class="s0">&lt;/head&gt;</span>
+	<span class="s0">&lt;style&gt;body</span><span class="s1">{</span>
+		<span class="s2">background-image</span><span class="s1">: </span><span class="s0">url</span><span class="s1">(</span><span class="s5">&quot;img/crime.png&quot;</span><span class="s1">)</span><span class="s6">;</span>
+
+	<span class="s1">} </span><span class="s0">&lt;/style&gt;</span>
+
+	<span class="s0">&lt;h1&gt;</span>
+		<span class="s1">Intentional Homicides of Major World Cities in the 1990's</span>
+	<span class="s0">&lt;/h1&gt;</span>
+	<span class="s0">&lt;h2&gt;</span>
+		<span class="s1">The urban population for each city is at least 100,000.</span>
+	<span class="s0">&lt;/h2&gt;</span>
+
+
+	<span class="s0">&lt;body&gt;</span>
+
+
+
+	<span class="s0">&lt;div </span><span class="s2">id </span><span class="s3">='mapid'</span><span class="s0">&gt;&lt;/div&gt;</span>
+
+	<span class="s0">&lt;div </span><span class="s2">id</span><span class="s3">=&quot;panel&quot;</span><span class="s0">&gt;&lt;/div&gt;</span>
+
+
+		<span class="s4">&lt;!--library scripts--&gt;</span>
+		<span class="s0">&lt;script </span><span class="s2">type</span><span class="s3">=&quot;text/javascript&quot; </span><span class="s2">src</span><span class="s3">=&quot;lib/jquery-3.3.1.js&quot;</span><span class="s0">&gt;&lt;/script&gt;</span>
+		<span class="s0">&lt;script </span><span class="s2">type</span><span class="s3">=&quot;text/javascript&quot; </span><span class="s2">src</span><span class="s3">=&quot;lib/leaflet-1.4.0/leaflet-src.js&quot;</span><span class="s0">&gt;&lt;/script&gt;</span>
+		<span class="s0">&lt;script </span><span class="s2">type</span><span class="s3">=&quot;text/javascript&quot; </span><span class="s2">src</span><span class="s3">=&quot;lib/leaflet.markercluster/leaflet.markercluster-src.js&quot;</span><span class="s0">&gt;&lt;/script&gt;</span>
+
+		<span class="s4">&lt;!--main scripts--&gt;</span>
+		<span class="s0">&lt;script </span><span class="s2">type</span><span class="s3">=&quot;text/javascript&quot; </span><span class="s2">src</span><span class="s3">=&quot;js/main.js&quot;</span><span class="s0">&gt;&lt;/script&gt;</span>
+
+		<span class="s4">&lt;!-- input tag --&gt;</span>
+		<span class="s0">&lt;input </span><span class="s2">id</span><span class="s3">=&quot;searchbar&quot; </span><span class="s2">onkeyup</span><span class="s3">=&quot;</span><span class="s1">search_cities()</span><span class="s3">&quot; </span><span class="s2">type</span><span class="s3">=&quot;text&quot;</span>
+			   <span class="s2">name</span><span class="s3">=&quot;search&quot; </span><span class="s2">placeholder</span><span class="s3">=&quot;Search city or country...&quot;</span><span class="s0">&gt;</span>
+		<span class="s4">&lt;!-- ordered list --&gt;</span>
+		<span class="s0">&lt;ol </span><span class="s2">id</span><span class="s3">='list'</span><span class="s0">&gt;</span>
+			<span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;cities&quot;</span><span class="s0">&gt;</span><span class="s1">Belo Horizonte, Brazil</span><span class="s0">&lt;/li&gt;</span>
+			<span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;cities&quot;</span><span class="s0">&gt;</span><span class="s1">Bogota, Colombia</span><span class="s0">&lt;/li&gt;</span>
+			<span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;cities&quot;</span><span class="s0">&gt;</span><span class="s1">Brasilia, Brazil</span><span class="s0">&lt;/li&gt;</span>
+			<span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;cities&quot;</span><span class="s0">&gt;</span><span class="s1">Cali, Colombia</span><span class="s0">&lt;/li&gt;</span>
+			<span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;cities&quot;</span><span class="s0">&gt;</span><span class="s1">Campinas, Brazil</span><span class="s0">&lt;/li&gt;</span>
+			<span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;cities&quot;</span><span class="s0">&gt;</span><span class="s1">Cucuta, Colombia</span><span class="s0">&lt;/li&gt;</span>
+			<span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;cities&quot;</span><span class="s0">&gt;</span><span class="s1">Curitiba, Brazil</span><span class="s0">&lt;/li&gt;</span>
+			<span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;cities&quot;</span><span class="s0">&gt;</span><span class="s1">Detroit, United States</span><span class="s0">&lt;/li&gt;</span>
+			<span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;cities&quot;</span><span class="s0">&gt;</span><span class="s1">East London, South Africa</span><span class="s0">&lt;/li&gt;</span>
+			<span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;cities&quot;</span><span class="s0">&gt;</span><span class="s1">East Rand, South Africa</span><span class="s0">&lt;/li&gt;</span>
+			<span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;cities&quot;</span><span class="s0">&gt;</span><span class="s1">Fortaleza, Brazil</span><span class="s0">&lt;/li&gt;</span>
+			<span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;cities&quot;</span><span class="s0">&gt;</span><span class="s1">Los Angeles, United States</span><span class="s0">&lt;/li&gt;</span>
+			<span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;cities&quot;</span><span class="s0">&gt;</span><span class="s1">Medellin, Colombia</span><span class="s0">&lt;/li&gt;</span>
+			<span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;cities&quot;</span><span class="s0">&gt;</span><span class="s1">Mexico City, Mexico</span><span class="s0">&lt;/li&gt;</span>
+			<span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;cities&quot;</span><span class="s0">&gt;</span><span class="s1">New York City, United States</span><span class="s0">&lt;/li&gt;</span>
+			<span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;cities&quot;</span><span class="s0">&gt;</span><span class="s1">Pereira, Colombia</span><span class="s0">&lt;/li&gt;</span>
+			<span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;cities&quot;</span><span class="s0">&gt;</span><span class="s1">Porto Alegre, Brazil</span><span class="s0">&lt;/li&gt;</span>
+			<span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;cities&quot;</span><span class="s0">&gt;</span><span class="s1">Pretoria, South Africa</span><span class="s0">&lt;/li&gt;</span>
+			<span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;cities&quot;</span><span class="s0">&gt;</span><span class="s1">Recife, Brazil</span><span class="s0">&lt;/li&gt;</span>
+			<span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;cities&quot;</span><span class="s0">&gt;</span><span class="s1">Rio de Janeiro, Brazil</span><span class="s0">&lt;/li&gt;</span>
+			<span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;cities&quot;</span><span class="s0">&gt;</span><span class="s1">San Pedro Sula, Honduras</span><span class="s0">&lt;/li&gt;</span>
+			<span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;cities&quot;</span><span class="s0">&gt;</span><span class="s1">Santos, Brazil</span><span class="s0">&lt;/li&gt;</span>
+			<span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;cities&quot;</span><span class="s0">&gt;</span><span class="s1">Sao Paulo, Brazil</span><span class="s0">&lt;/li&gt;</span>
+			<span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;cities&quot;</span><span class="s0">&gt;</span><span class="s1">Vereeniging, South Africa</span><span class="s0">&lt;/li&gt;</span>
+			<span class="s0">&lt;li </span><span class="s2">class</span><span class="s3">=&quot;cities&quot;</span><span class="s0">&gt;</span><span class="s1">Vitoria, Brazil</span><span class="s0">&lt;/li&gt;</span>
+		<span class="s0">&lt;/ol&gt;</span>
+
+		<span class="s0">&lt;/body&gt;</span>
+<span class="s0">&lt;/html&gt;</span></pre>
+</body>
+</html>

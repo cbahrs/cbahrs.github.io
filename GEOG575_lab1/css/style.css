@@ -1,0 +1,116 @@
+#mapid {
+	position: absolute;
+	height: 500px;
+	width: 100%;
+	display: inline;
+	top: 100px;
+	padding-top: 25px;
+	margin-top: 10em;
+	z-index: 0;
+	align-content: center;
+}
+.leaflet-popup-content p {
+	margin: 0.2em 0;
+
+}
+
+
+h1{
+	border: solid 5px #000000;
+	background-color: rgba(255, 0, 0, 0.72);
+	position: relative;
+	top: 0px;
+	padding: 1%;
+	text-align: center;
+	margin-bottom: .5em;
+	font-size: 2.5em;
+}
+h2{
+	background-color: white;
+	opacity: 80%;
+	border: solid black;
+	position: relative;
+	padding: 1%;
+	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 3em;
+
+
+}
+
+.sequence-control-container, .legend-control-container {
+	background-color: rgba(236, 225, 225, 0.8);
+	padding: 10px;
+	text-align: center;
+	border: solid gray 1px;
+}
+
+.sequence-control-container {
+	width: 350px;
+	height: 30px;
+	line-height: 45px;
+}
+
+.range-slider {
+	width: 200px;
+}
+
+#forward {
+	float: right;
+}
+
+#reverse {
+	float: left;
+}
+
+.legend-control-container {
+	width: 200px;
+}
+
+#temporal-legend {
+	font-weight: bold;
+	font-size: 1.5em;
+
+}
+/*search bar styling */
+#searchbar{
+	margin-left: 65%;
+	margin-top: 200px;
+	bottom: 75%;
+	padding:15px;
+	border-radius: 10px;
+	position: sticky;
+	z-index: +1;
+
+
+}
+
+input[type=text] {
+	width: 30%;
+	-webkit-transition: width 0.15s ease-in-out;
+	transition: width 0.15s ease-in-out;
+}
+
+/* When the input field gets focus,
+		change its width to 100% */
+input[type=text]:focus {
+	width: 70%;
+}
+
+#list{
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: bold, serif;
+	text-align: left;
+	column-count: 2;
+	background-color: white;
+	opacity: 80%;
+	margin-top: 12em;
+	padding-left: 5%;
+
+}
+
+.cities{
+	display: list-item;
+}
+

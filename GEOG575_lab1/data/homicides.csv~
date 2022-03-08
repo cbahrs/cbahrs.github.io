@@ -1,0 +1,26 @@
+25-Jan,City,Division,Country,lat,long,Sources,hom_1990,hom_1991,hom_1992,hom_1993,hom_1994,hom_1995,hom_1996,hom_1997,hom_1998,hom_1999
+1,Belo Horizonte,Minas Gerais,Brazil,-19.841644,-43.986511,[1],396,475,441,474,424,588,624,727,870,899
+2,Bogotá,Distrito Capital,Colombia,4.711,-74.0721,[9],"2,258","2,698","3,231","4,378","3,664","3,385","3,296","2,810","2,483","2,409"
+3,Brasília,,Brazil,-15.7975,-47.8919,[10][11],593,680,591,717,727,802,843,827,835,844
+4,Cali,Valle del Cauca,Colombia,3.4516,-76.532,[12],null,null,null,null,"2,498","2,267","2,187","1,794","1,871","2,181"
+5,Campinas,São Paulo,Brazil,-22.907104,-47.06324,[10][11],265,298,355,423,451,529,13,604,826,977
+6,Cúcuta,Norte de Santander,Colombia,7.89391,-72.50782,[13],null,null,null,null,null,null,null,null,null,747
+7,Curitiba,Paraná,Brazil,-25.4372,-49.27,[1],326,284,301,364,386,434,481,611,554,658
+8,Detroit,Michigan,United States,42.3314,-83.0458,[14][15][16][17][18],null,null,null,null,null,564,517,556,514,501
+9,East London,Eastern Cape,South Africa,33.0292,27.8546,[19],null,null,null,null,494,613,753,663,643,675
+10,East Rand,Gauteng,South Africa,-26.1777,28.3462,[20],null,null,null,null,"1,346",985,"1,088","1,077","1,116","1,130"
+11,Fortaleza,Ceará,Brazil,-3.731903,-38.526739,[1],374,426,376,475,438,644,589,657,493,658
+12,Los Angeles,California,United States,34.059761,-118.2768,[14][15][16][17][18][21],"1,768","1,856","1,919","1,944","1,669","1,682","1,401","1,175",959,891
+13,Medellín,Antioquia,Colombia,6.230833,-75.590553,[12],null,null,null,null,"5,284","5,285","5,257","4,478","4,083","4,288"
+14,Mexico City,,Mexico,19.4326,-99.1332,[22],"4,724","4,562","4,608","4,568","4,365","4,116","4,061","3,692","3,612","3,196"
+15,New York City,New York,United States,40.7128,-74.006,[14][15][16][17][18],"2,245",null,null,null,null,"1,220","1,030",803,662,693
+16,Pereira,Risaralda,Colombia,4.808717,-75.690601,[13],null,null,null,null,null,null,null,null,null,647
+17,Porto Alegre,Rio Grande do Sul,Brazil,-30.0368,-51.209,[1],807,801,761,526,686,744,810,886,812,820
+18,Pretoria,Gauteng,South Africa,-25.7479,28.2293,[23],null,null,null,null,483,502,483,527,549,542
+19,Recife,Pernambuco,Brazil,-8.05,-34.9,[1],"1,602","1,552","1,392","1,482","1,390","1,487","1,643","2,240","2,788","2,568"
+20,Rio de Janeiro,Rio de Janeiro,Brazil,-22.970722,-43.182365,[1],"6,044","4,254","3,620","4,319","5,263","7,047","6,853","6,875","6,464","6,086"
+21,San Pedro Sula,Cortés,Honduras,15.50417,-88.025,[24],null,null,null,null,null,null,572,741,761,896
+22,Santos,São Paulo,Brazil,-23.865663,-46.27055,[10][11],321,346,327,328,342,393,9,633,705,811
+23,São Paulo,São Paulo,Brazil,-23.533773,-46.62529,[1],"7,419","7,520","6,912","6,887","7,535","8,903","9,247","9,202","10,122","11,499"
+24,Vereeniging,Gauteng,South Africa,-26.673611,27.931944,[25],null,null,null,null,579,690,741,673,721,605
+25,Vitória,Espírito Santo,Brazil,-20.3194,-40.3378,[10][26],535,595,513,747,839,827,855,"1,103","1,273","1,171"
